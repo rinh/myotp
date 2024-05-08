@@ -1,7 +1,4 @@
 from flask import Flask, request, send_file, Response, render_template, abort
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = Flask(__name__)
 
